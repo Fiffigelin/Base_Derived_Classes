@@ -2,7 +2,7 @@ class Laptop : Computer
 {
     public int Weight { get; set; }
 
-    public override string GetInfo()
+    public override string ToString()
     {
         return "**************************************************************************"
         + $"\nThis laptops weight is {Weight} gram."

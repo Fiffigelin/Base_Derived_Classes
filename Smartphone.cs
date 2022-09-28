@@ -7,7 +7,7 @@ class Smartphones : Computer
         return Selfies++;
     }
 
-    public override string GetInfo()
+    public override string ToString()
     {
         return "**************************************************************************"
         + $"\nThe mobilephone has been used {Selfies} times for selfies. GET A HOLD ON YOURSELF";

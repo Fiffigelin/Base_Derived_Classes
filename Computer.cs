@@ -29,7 +29,7 @@ class Computer
     public virtual string GetInfo()
     {
         return "**************************************************************************"
-        + $"This is a computer with {Ram} GB ram and have a storage unit of {Storage} GB." 
+        + $"\nThis is a computer with {Ram} GB ram and have a storage unit of {Storage} GB." 
         + $"\nSerialnumber : {_serialNumber}"
         + $"\nThe keyboard have this key : {Keyboard}";
     }

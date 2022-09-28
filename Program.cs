@@ -1,5 +1,6 @@
 ﻿internal class Program
 {
+    // Utgår från Gustavs exempelkod bara för att inte fastna på smådetaljer som jag gärna gör :)
     private static void Main(string[] args)
     {
         Laptop newLaptop = new();
